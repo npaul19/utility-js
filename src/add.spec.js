@@ -10,4 +10,8 @@ describe('Add', () => {
         expect(add(1, 0)).toEqual(1);
     });
 
+    it('Sum of any number of arguments', () => {
+        expect(add(1, 2, 3, 4, 5)).toEqual(15);
+    });
+
 })
