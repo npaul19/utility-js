@@ -1,6 +1,3 @@
-const head = (nums) => {
-    if(nums.length == 0)
-        return undefined;
-};
+const head = (nums) => nums.shift();
 
 module.exports = head;
